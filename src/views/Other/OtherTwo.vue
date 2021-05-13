@@ -1,5 +1,5 @@
 <template>
-  <div>abou花花花</div>
+  <div>OtherTwo</div>
 </template>
 
 <script>
