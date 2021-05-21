@@ -1,9 +1,0 @@
-<template>
-  <div>abou花花花</div>
-</template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

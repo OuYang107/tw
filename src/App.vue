@@ -9,7 +9,11 @@
 <script></script>
 
 <style lang="scss">
-#app {
-  height: 100vh;
-}
+// #app {
+//   height: 100vh;
+//   overflow-y: hidden;
+//   // scrollbar-width: none;
+//   // width: 0 !important;
+//   // height: 0;
+// }
 </style>
