@@ -15,20 +15,31 @@ Router.prototype.replace = function push(location) {
 export default new Router({
   routes: [
     {
-      path: "/navigation",
-      name: "navigation",
-      component: () => import("../views/navigation.vue")
-    },
-    {
       path: "/",
-      name: "administration",
-      component: () => import("../views/administration.vue")
-    },
-    {
-      path: "/help",
-      name: "help",
-      component: () => import("../views/help.vue")
+      name: "index",
+      component: () => import("../views/index.vue")
     }
+
+    // {
+    //   path: "/navigation",
+    //   name: "navigation",
+    //   component: () => import("../views/navigation.vue")
+    // },
+    // {
+    //   path: "/administration",
+    //   name: "administration",
+    //   component: () => import("../views/administration.vue")
+    // },
+    // {
+    //   path: "/help",
+    //   name: "help",
+    //   component: () => import("../views/help.vue")
+    // },
+    // {
+    //   path: "/",
+    //   name: "login",
+    //   component: () => import("../views/login.vue")
+    // }
   ]
 });
 // export default routes;
